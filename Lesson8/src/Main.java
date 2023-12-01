@@ -5,7 +5,8 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        String[] wordArray = {"apple", "orange", "banana", "apple", "grape", "banana", "kiwi", "orange", "apple", "pear", "kiwi", "banana"};
+        String[] wordArray = {"apple", "orange", "banana", "apple", "grape", "banana", "kiwi", "orange", "apple",
+                "pear", "kiwi", "banana"};
 
         Map<String, Integer> wordCounter = new HashMap<>();
         for (String word : wordArray) {
